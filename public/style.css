@@ -57,3 +57,18 @@ hr {
 #icon{
     font-size: 30px;
 }
+
+#avisos {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    color: white; /* Branco como padrão */
+}
+
+#avisos.sucesso {
+    color: green;
+}
+
+#avisos.erro {
+    color: red;
+}
